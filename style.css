@@ -18,7 +18,8 @@ body {
   padding-bottom: 10px;
 }
 
-.container p {
+.container p,
+a {
   color: white;
 }
 
