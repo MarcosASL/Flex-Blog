@@ -82,6 +82,16 @@ ul {
   margin: 0 10px;
 }
 
+.introducao-titulo {
+  /* background-color: #f9265e; */
+  font-size: 3em;
+  /* font-size: 50px; */
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px 55px 0px;
+}
+
 h5 {
   background-color: #2c70ff;
   display: flex;
@@ -119,10 +129,11 @@ p {
   /* background-color: #2c70ff; */
 }
 
+/*ESPAÇAMENTO DO CANTO ESQUERDO DO LAYOUT*/
 .principal {
   /* background-color: yellowgreen; */
   display: flex;
-  margin: 0 150px;
+  margin: 0 135px;
 }
 
 /*POSICIONAR AS IMAGENS DO PRODUTOS*/
