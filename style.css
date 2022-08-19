@@ -52,3 +52,7 @@ h5 {
   justify-content: center;
   padding: 50px;
 }
+.footer-email h4,
+p {
+  background-color: rgb(235, 235, 235);
+}
