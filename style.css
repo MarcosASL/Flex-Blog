@@ -96,3 +96,15 @@ p {
   font-size: 3em;
   color: #a4a4a4;
 }
+
+.principal {
+  /* background-color: #bd1616; */
+  display: flex;
+  margin: 0 150px;
+}
+.imgs {
+  background-color: rgb(190, 43, 90);
+  display: flex;
+  justify-content: space-around;
+  padding: auto;
+}
