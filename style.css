@@ -19,8 +19,6 @@ body {
 .container p,
 a {
   color: white;
-}
-.container a {
   text-decoration: none;
 }
 
@@ -52,9 +50,22 @@ h5 {
   justify-content: center;
   padding: 50px;
 }
-.footer-email h4,
+
+/* .footer-email h4,
 p {
   display: flex;
   background-color: rgb(235, 235, 235);
   justify-content: center;
+} */
+
+.footer-fundo {
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.texto-grande {
+  font-size: 3em;
+  color: #a4a4a4;
 }
