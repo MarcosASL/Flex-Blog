@@ -54,5 +54,7 @@ h5 {
 }
 .footer-email h4,
 p {
+  display: flex;
   background-color: rgb(235, 235, 235);
+  justify-content: center;
 }
