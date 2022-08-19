@@ -8,6 +8,15 @@ body {
   /* gap: 30px;  */
   /* font-size: 64px; */
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: #2c70ff;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 body,
 h1,
@@ -25,4 +34,10 @@ a {
 }
 .header-principal p {
   background: #2c70ff;
+}
+h5 {
+  background-color: #122ab2;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
