@@ -1,11 +1,12 @@
 body {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   color: #222222;
-  margin: 0px;
+  /* margin: 0px; */
   justify-items: center;
 }
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   /* padding: 10px; */
   padding-top: 10px;
@@ -144,14 +145,16 @@ p {
 .purple {
   flex: 1 1 175px;
   margin: 10px;
-  /* border-top: 8px solid #ae81ff; */
+  border-top: 8px solid #ae81ff;
 }
 .pink {
   flex: 1 1 175px;
   margin: 10px;
+  border-top: 8px solid #f9265e;
 }
 
 .blue {
   flex: 1 1 175px;
   margin: 10px;
+  border-top: 8px solid #66d9eb;
 }
