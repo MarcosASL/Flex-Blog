@@ -19,3 +19,10 @@ a {
   margin: 0px;
   padding: 0px;
 }
+
+.header-principal {
+  background: #122ab2;
+}
+.header-principal p {
+  background: #2c70ff;
+}
