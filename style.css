@@ -11,7 +11,7 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  background: #2c70ff;
+  background: #122ab2;
   padding-right: 150px;
   padding-left: 150px;
   padding-top: 10px;
@@ -30,13 +30,13 @@ a {
 }
 
 .header-principal {
-  background: #122ab2;
-}
-.header-principal p {
   background: #2c70ff;
 }
+.header-principal p {
+  background: #122ab2;
+}
 h5 {
-  background-color: #122ab2;
+  background-color: #2c70ff;
   display: flex;
   justify-content: center;
   padding: 50px;
