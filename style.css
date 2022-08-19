@@ -7,8 +7,8 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 14px;
-  padding-bottom: 10px;
+  /* padding: 10px; */
+  padding-top: 10px;
   margin: 0 auto;
   max-width: 960px;
 }
@@ -20,6 +20,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  margin: 0 10px 10px 10px; /*não tirar*/
 }
 
 body,
@@ -41,8 +42,8 @@ ul {
   background: #2c70ff;
   justify-content: space-between;
   /* max-width: 960px; */
-  margin: 0 auto;
-  padding: 15px 0;
+  /* margin: 0 auto; */
+  padding: 4px 0;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -50,7 +51,7 @@ ul {
 .menu {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
+  /* background-color: aqua; */
   padding: 15px 0;
   flex-wrap: wrap;
   align-items: center;
@@ -61,8 +62,12 @@ ul {
 .nav-menu ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  /* gap: 15px; */
   /* padding: 10px; */
+}
+.nav-menu a {
+  font-size: 1.25em;
+  padding: 10px;
 }
 
 .marca-grande a {
