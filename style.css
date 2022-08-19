@@ -18,6 +18,10 @@ body {
   padding-bottom: 10px;
 }
 
+.container p {
+  color: white;
+}
+
 body,
 h1,
 h2,
