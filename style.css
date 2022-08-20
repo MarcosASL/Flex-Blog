@@ -144,6 +144,21 @@ p {
   padding: 60px 0;
   flex-wrap: wrap;
 }
+
+.sobre-info {
+  flex: 2 1 300px;
+}
+.sobre-info h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
 /* .main-sobre img {
   flex: 1 1 160px;
   margin: 0 10px;
