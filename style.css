@@ -65,17 +65,24 @@ ul {
   max-width: 960px;
 }
 
-.nav-menu ul {
-  display: flex;
+.nav-menu li {
+  display: inline-flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  /* gap: 15px; */
+  padding: 10px;
   /* padding: 10px; */
 }
+.nav-menu:hover {
+  background-color: #122ab2;
+  border-radius: 6px;
+  transition: 0.7s;
+}
 .nav-menu a {
+  display: flex;
   font-size: 1.25em;
   padding: 10px;
+  margin: 10px;
 }
-
 .marca-grande a {
   font-size: 2.25em;
   font-weight: bold;
