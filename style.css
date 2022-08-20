@@ -207,3 +207,19 @@ p {
   margin: 10px;
   border-top: 8px solid #66d9eb;
 }
+.preco {
+  display: flex;
+  justify-content: center;
+  background-color: #f5efef;
+}
+
+.preco li {
+  display: flex;
+  justify-content: center;
+}
+.preco a {
+  border: 2px solid #222222;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
