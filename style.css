@@ -67,12 +67,11 @@ ul {
 
 .nav-menu li {
   display: inline-flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
   /* padding: 10px; */
 }
-.nav-menu:hover {
+.nav-menu a:hover {
   background-color: #122ab2;
   border-radius: 6px;
   transition: 0.7s;
