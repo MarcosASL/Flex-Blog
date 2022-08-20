@@ -131,9 +131,26 @@ p {
 
 /*ESPAÇAMENTO DO CANTO ESQUERDO DO LAYOUT*/
 .principal {
-  /* background-color: yellowgreen; */
   display: flex;
   margin: 0 135px;
+}
+
+.main-sobre {
+  display: flex;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+/* .main-sobre img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+} */
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
 }
 
 /*POSICIONAR AS IMAGENS DO PRODUTOS*/
