@@ -347,3 +347,34 @@ p {
 }
 
 /*QUALIDADE*/
+
+.qualidade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.qualidade-itens {
+  align-content: center;
+  align-items: center;
+  padding: 80px;
+  width: 220px;
+  height: 10px;
+}
+/* .qualidade h2 {
+  border-left: 6px solid;
+} */
+
+/* criando a barrinha colorida na lateral do nome */
+.border-purple {
+  border-left: 6px solid;
+  border-color: rgb(180, 85, 180);
+}
+.border-red {
+  border-left: 6px solid;
+  border-color: red;
+}
+.border-blue {
+  border-left: 6px solid;
+  border-color: #548afd;
+}
