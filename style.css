@@ -386,19 +386,25 @@ p {
 /* criando a barrinha colorida na lateral do nome */
 .border-purple {
   /* content: ""; */
-  /* display: inline-block; */
+  display: inline-block;
   border-left: 8px solid;
   border-color: #ae81ff;
   padding: 0px 0px 0px 10px;
-  height: 30px;
+  height: 17%;
   /* width: 50px; */
   /* margin-left: 40px; */
 }
 .border-red {
-  border-left: 6px solid;
-  border-color: red;
+  display: inline-block;
+  border-left: 8px solid;
+  border-color: #f9265e;
+  padding: 0px 0px 0px 10px;
+  height: 17%;
 }
 .border-blue {
-  border-left: 6px solid;
-  border-color: #548afd;
+  display: inline-block;
+  border-left: 8px solid;
+  border-color: #66d9eb;
+  padding: 0px 0px 0px 10px;
+  height: 17%;
 }
