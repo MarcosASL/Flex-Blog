@@ -83,6 +83,7 @@ ul {
   border-radius: 6px;
   transition: 0.7s;
 }
+
 .nav-menu a {
   display: flex;
   font-size: 1.25em;
@@ -340,3 +341,5 @@ p {
     order: -1;
   }
 }
+
+/*QUALIDADE*/
