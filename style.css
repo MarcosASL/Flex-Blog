@@ -349,26 +349,50 @@ p {
 /*QUALIDADE*/
 
 .qualidade {
+  max-width: 960px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 60px auto;
   flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 .qualidade-itens {
-  align-content: center;
-  align-items: center;
-  padding: 80px;
-  width: 220px;
-  height: 10px;
+  flex: 1 1 300px;
+  margin: 20px 10px;
+  /* align-content: center; */
+  /* align-items: center; */
+  /* padding: 80px; */
+  /* width: 220px; */
+  /* height: 10px; */
 }
+.qualidade-itens h2 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+  /* gap: 80px; */
+  /* margin: 10px; */
+  /* background-color: #122ab2; */
+}
+.qualidade-itens p {
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: #7c7c7c;
+}
+
 /* .qualidade h2 {
   border-left: 6px solid;
 } */
 
 /* criando a barrinha colorida na lateral do nome */
 .border-purple {
-  border-left: 6px solid;
-  border-color: rgb(180, 85, 180);
+  /* content: ""; */
+  /* display: inline-block; */
+  border-left: 8px solid;
+  border-color: #ae81ff;
+  padding: 0px 0px 0px 10px;
+  height: 30px;
+  /* width: 50px; */
+  /* margin-left: 40px; */
 }
 .border-red {
   border-left: 6px solid;
