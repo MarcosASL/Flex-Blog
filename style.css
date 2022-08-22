@@ -326,3 +326,17 @@ p {
   background: #2c70ff;
   border-radius: 50%; /* % para se adequar ao tamanho do layout*/
 }
+
+/*RESPONSIVO*/
+@media (max-width: 800px) {
+  .preco {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .preco .preco-itens:nth-child(3) {
+    order: -2; /*colocar o OURO como o item 1 na fila*/
+  }
+  .preco .preco-itens:nth-child(2) {
+    order: -1;
+  }
+}
