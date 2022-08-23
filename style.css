@@ -321,20 +321,6 @@ p {
   border-radius: 50%; /* % para se adequar ao tamanho do layout*/
 }
 
-/*RESPONSIVO*/
-@media (max-width: 800px) {
-  .preco {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .preco .preco-itens:nth-child(3) {
-    order: -2; /*colocar o OURO como o item 1 na fila*/
-  }
-  .preco .preco-itens:nth-child(2) {
-    order: -1;
-  }
-}
-
 /*QUALIDADE*/
 
 .qualidade {
@@ -452,4 +438,39 @@ p {
   cursor: pointer;
   border: 0px;
   padding: 15px 10px;
+}
+
+/*FOOTER FINAL*/
+.footer-final {
+  display: flex;
+  background: #2c70ff;
+  height: 200px;
+  align-items: center;
+}
+
+.footer-final p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+  color: #122ab2;
+}
+
+/*RESPONSIVO*/
+@media (max-width: 800px) {
+  .preco {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .preco .preco-itens:nth-child(3) {
+    order: -2; /*colocar o OURO como o item 1 na fila*/
+  }
+  .preco .preco-itens:nth-child(2) {
+    order: -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5em;
+  }
 }
