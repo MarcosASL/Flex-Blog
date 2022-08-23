@@ -474,3 +474,7 @@ p {
     font-size: 1.5em;
   }
 }
+.newsletter-form:hover {
+  background-color: #dadada;
+  transition: 0.6s;
+}
