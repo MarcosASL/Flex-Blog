@@ -456,7 +456,7 @@ p {
 }
 
 /*RESPONSIVO*/
-@media (max-width: 800px) {
+@media (max-width: 911px) {
   .preco {
     padding-left: 10px;
     padding-right: 10px;
@@ -467,10 +467,29 @@ p {
   .preco .preco-itens:nth-child(2) {
     order: -1;
   }
+
+  .preco-itens {
+    padding: 1px;
+  }
+
+  .preco-itens a {
+    font-size: 1.5em;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .newsletter-form button {
     font-size: 1.5em;
   }
+  .preco-itens {
+  }
+}
+@media (max-width: 1121px) {
+  .preco-itens {
+    flex: 1 1 100px;
+    /* background-color: #66d9eb; */
+  }
+}
+
+@media (max-width: 630px) {
 }
