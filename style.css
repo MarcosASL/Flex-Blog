@@ -239,9 +239,6 @@ p {
   /* align-self: flex-end; */
 }
 
-.preco-link {
-}
-
 /* .preco li {
   display: flex;
   justify-content: center;
@@ -393,7 +390,7 @@ p {
 }
 
 .footer-email {
-  flex: 1 1 240px; /*240 é o minimo que ele vai pegar*/
+  flex: 1 1 240px; /*240 é o mínimo que ele vai pegar*/
   margin: 0 10px;
 }
 
@@ -467,9 +464,11 @@ p {
   .preco .preco-itens:nth-child(2) {
     order: -1;
   }
+
   .preco-itens {
     padding: 1px;
   }
+
   .preco-itens a {
     font-size: 1.5em;
   }
@@ -478,5 +477,11 @@ p {
 @media (max-width: 700px) {
   .newsletter-form button {
     font-size: 1.5em;
+  }
+}
+@media (max-width: 1121px) {
+  .preco-itens {
+    flex: 1 1 100px;
+    /* background-color: #66d9eb; */
   }
 }
