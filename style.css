@@ -483,9 +483,18 @@ p {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 615px) {
   .sobre-img {
     display: none;
+  }
+  .Produtos-fotos h2 {
+    font-size: 2em;
+  }
+  .pink,
+  .blue,
+  .purple {
+    background-color: #265e;
+    flex: 1 1 40px;
   }
 }
 
