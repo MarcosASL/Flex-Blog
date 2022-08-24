@@ -478,7 +478,17 @@ p {
   .newsletter-form button {
     font-size: 1.5em;
   }
+  .sobre-img {
+    flex: 1 1 120px;
+  }
 }
+
+@media (max-width: 600px) {
+  .sobre-img {
+    display: none;
+  }
+}
+
 @media (max-width: 1121px) {
   .preco-itens {
     flex: 1 1 100px;
