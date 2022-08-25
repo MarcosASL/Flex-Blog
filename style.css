@@ -496,6 +496,12 @@ p {
     background-color: #265e;
     flex: 1 1 40px;
   }
+  .footer-final {
+    height: 100px;
+  }
+  .footer-final p {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 1121px) {
