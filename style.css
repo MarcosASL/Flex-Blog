@@ -502,6 +502,12 @@ p {
   .footer-final p {
     font-size: 1.5em;
   }
+  .footer-fundo {
+    padding: 20px;
+  }
+  .footer-email h1 {
+    font-size: 2em;
+  }
 }
 
 @media (max-width: 1121px) {
