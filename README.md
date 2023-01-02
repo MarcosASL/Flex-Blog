@@ -1,12 +1,19 @@
-# Flex-Blog
+# 🗃️ Flex-Blog
 
 # Sobre o projeto
+- Site utilizado para treinar e estudar flexbox
 
-Projeto de Layout simples com o intuito de fortalecer as habilidades de css com
-para criar um layout responsivo  utilizando as novas propriedades do CSS Flex-Box.
+Projeto de Layout simples com o intuito de fortalecer as habilidades de
+criar um layout responsivo utilizando as novas propriedades do CSS Flex-Box.
 
 
-Esse Projeto inicial terá mudanças no futuro, o objetivo é sempre ir melhorando o projeto aos poucos.
+# 🖥️Demonstração
+Você pode acessar o projeto clicando  [aqui.](https://flex-blog-projeto.netlify.app/) 👈
+
+- Figma ✅.
+- HTML e CSS ✅.
+- Flexbox ✅.
+- Responsividade com FlexBox ✅.
 
 ## Layout final
 
